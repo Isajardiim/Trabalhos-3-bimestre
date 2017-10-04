@@ -1,0 +1,10 @@
+ul{
+text-align:center;
+list-style:none;		
+}
+#resultado{
+	text-align:center;
+	background: url("imagem.JPG") no-repeat  ;
+	background-size: 100% 100%;
+	
+}
