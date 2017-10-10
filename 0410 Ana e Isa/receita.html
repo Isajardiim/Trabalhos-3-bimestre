@@ -22,9 +22,9 @@
 									$ul2.append($("<li/>").text(preparo))
 								});
 						$("#resultado")
-							.append($("<p/>").text(receita.nome))
-							.append($("<p/>").text(receita.descricao))
+							.append($("<h2/>").text(receita.nome))
 							.append($("<img/>").attr("src",receita.foto))
+							.append($("<p/>").text(receita.descricao).text("Ingredientes"))
 							.append($ul1)
 							.append($ul2);
 							console.log(receitas);
@@ -37,6 +37,8 @@
 	</head>
 <body>
 	<div id="resultado">
+	<h1>CEFET Receitas</h1>
+	<h2></h2>
 	</div>
 
 
